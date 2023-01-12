@@ -1,6 +1,0 @@
-
-add PDF icon to download resume
-
-make div blocks separating info in 1 page with menu btn scrolling to right area
-
-body margins and max width should be in a wrapper in each block so that blue goes from left to right
