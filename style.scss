@@ -32,7 +32,7 @@ a {
     transform: rotate(180deg);
 }
 
-#block-0 {
+#web-designer {
     min-height: 20em;
     padding: 2em;
     @media screen AND (min-width: 600px) {
@@ -50,7 +50,7 @@ a {
     }
 }
 
-#block-1, #block-2, #block-3, #block-4 {
+#home, #portfolio, #about, #contact {
     min-height: 20em;
     padding: 2em;
     @media screen AND (min-width: 600px) {
@@ -66,12 +66,12 @@ a {
     }
 }
   
-#block-1, #block-3 {    
+#home, #about {    
     background-color: $color2;
     color: $color4;
 }
 
-#block-0, #block-2, #block-4 {
+#web-designer, #portfolio, #contact {
     background-color: $color4;
     color: $color2;
 }
@@ -206,22 +206,6 @@ header {
     }
 }
 
-// #hero {
-//     background-image: url(media/hero_mobile.jpg);
-//     background-size: 100%;
-//     background-repeat: no-repeat;
-//     height: 16.5em;
-//     margin-top: 1em;
-//     @media screen AND (min-width: 600px) {
-//         background-image: url(media/hero_landscape.jpg);
-//         height: 26em;
-//     }
-//     @media screen AND (min-width: 1024px) {
-//         margin-top: 0;
-//         height: 36em;
-//     }
-// }
-
 #hero-p{
     font-size: .8em;
     margin: 0;
@@ -269,13 +253,13 @@ h2 {
     stroke-width: 0;
 }
 
-#block-4 .icon {
+#contact .icon {
     fill: $color2;
     margin: 0 0 0 4em;
     vertical-align: text-bottom;
 }
 
-#block-4 .icon:hover {
+#contact .icon:hover {
     fill: $color3;
 }
 
@@ -352,7 +336,7 @@ p {
     }
 }
 
-#block-4 p {
+#contact p {
     display: inline-block;
     margin-left: 1em;
     line-height: 3;
@@ -378,4 +362,8 @@ p {
     margin: auto; //resetting margin used on p
     margin-bottom: 4em;
     padding-left: .87em;
+}
+
+#ul-about {
+    margin-left: 4em;
 }
