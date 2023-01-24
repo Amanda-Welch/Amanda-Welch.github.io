@@ -22,14 +22,9 @@ a {
 }
 
 #arrow {
-    border: $color2 solid 1px;
-    border-radius: 100%;
-    letter-spacing: -.05em;
-    padding: 0.2em 0.2em 0 0.2em;
     margin: 0.5em auto;
     font-size: 2em;
     width: 1.7em;
-    transform: rotate(180deg);
 }
 
 #web-designer {
@@ -106,13 +101,13 @@ a {
 }
 
 #btn-menu {
-    background-color: $color2;
-    border: 1px solid $color2;
+    background-color: $color3;
+    border: 1px solid $color3;
     border-radius: 20px 0 0 20px;
-    color: $color4;
+    color: $color2;
     font-size: 1em;
     font-weight: bolder;
-    padding: 0.3em 1.1em 0.3em 1.2em;
+    padding: 0.5em 1.1em 0.5em 1.2em;
     position: absolute;
     right: 0;
     top: 1.5em;
@@ -127,9 +122,9 @@ a {
 }
 
 #btn-menu:hover, #btn-menu:active {
-    background-color: $color3;
+    background-color: $color2;
     border-radius: 20px 0 0 0px;
-    color: $color4;
+    color: $color3;
     cursor: pointer;
 }
 
@@ -288,11 +283,13 @@ footer .icon:hover {
     border-radius: 0 0 20px 20px;
     display: none;
     list-style-type: none;
-    padding: .1em .51em;
+    line-height: 1.8em;
+    padding: .5em .45em;
     position: absolute;
     right: 0;
-    top: 2.2em;
-    @media screen AND (min-width: 600px) {
+    top: 2.4em;
+    @media screen AND (min-width: 600px) {        
+        padding: .3em .45em;
         top: 3.4em;
     }
     @media screen AND (min-width: 800px) {
@@ -304,6 +301,10 @@ footer .icon:hover {
         position: fixed;
         top: 1em;
     }
+}
+
+#padding-top {
+    padding-top: .3em;
 }
 
 #nav-drop li {
